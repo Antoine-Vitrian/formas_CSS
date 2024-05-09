@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(1, 48, 120);
+}
+.base {
+    background-color: #1598E1;
+    width: 594px;
+    height: 110px;
+    display: block;
+    margin: 390px 575px;
+    position: absolute;
+}
+.roda {
+    background-color: #2f2f2f;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 450px 650px;    
+}
+.calota {
+    background-color: #BBBBBB;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 460px 660px;
+}
+.roda2 {
+    background-color: #2f2f2f;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 450px 1000px; 
+}
+.calota2 {
+    background-color: #BBBBBB;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 460px 1010px;
+}
+.teto {
+    background-color: #1598E1;
+    width: 400px;
+    height: 90px;
+    position: absolute;
+    margin: 300px 670px;
+}
+.vidro {
+    background-color: #D2D6D8;
+    width: 380px;
+    height: 80px;
+    position: absolute;
+    margin: 310px 680px;
+}
+.lanterna {
+    background-color: #FCE40C;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin: 400px 1134px;
+}
+.parachoque {
+    background-color: #BBBBBB;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin: 465px 563px;
+}
+.parachoque2 {
+    background-color: #BBBBBB;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin: 465px 1143px;
+}
+.divisória {
+    background-color: #1598E1;
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    margin: 300px 760px;
+}
+.divisória2 {
+    background-color: #1598E1;
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    margin: 300px 870px;
+}
+.divisória3 {
+    background-color: #1598E1;
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    margin: 300px 980px;
+}
+.rua {
+    background-color: rgb(95, 94, 94);
+    height: 150px;
+    width: 2000px;
+    margin-top: 465px;
+    position: absolute;
+}
+.lua {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+}
+.grama {
+    position: absolute;
+    margin-top: 575px;
+    background-color: rgb(0, 88, 0);
+    width: 2000px;
+    height: 300px;
+}
+@keyframes roda {
+    from {
+       transform:rotate(0);
+    }
+    to {
+       transform:rotate(359deg);
+    }
+}
+#girar:hover {
+       animation-name: roda;
+}

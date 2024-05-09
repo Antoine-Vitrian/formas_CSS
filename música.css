@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+#container {
+    padding: 100%;
+}
+.fundo {
+    position: absolute;
+    height: 470px;
+    width: 240px;
+    background: linear-gradient(to top, #061518, #2D8497);
+    margin: 200px 500px;
+    border-radius: 10%;
+}
+.titulos {
+    position: absolute;
+    font-size: 72px;
+    color: white;
+    font-family: 'Ingrid Darling';
+    
+}
+.titulo1 {
+    position: absolute;
+    margin: 250px 520px;
+}
+.titulo2 {
+    position: absolute;
+    margin: 310px 530px;
+}
+.retangulo {
+    position: absolute;
+    background-color: #78A8AE;
+    height: 65px;
+    width: 240px;
+    margin: 320px 500px;
+}
+.clave img{
+    height: 200px;
+    width: 70px;
+    margin: 230px 670px;
+    position: absolute;
+}
+.o2 img{
+   width: 240px;
+   position: absolute;
+   height: 140px;
+   margin: 393px 500px;
+    
+}
+.circulo{
+    border-radius: 50%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 550px 602px;
+    background-color: aliceblue;
+}
+
+.trian {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent; 
+    border-left:20px solid #003131;
+    position: absolute; 
+    margin: 557px 614px;
+  }
+  .botao:hover #botao{
+    transform:scale(1.2);
+  }
+  .trian-1 {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent; 
+    border-left:20px solid aliceblue;
+    position: absolute;
+    margin: 557px 668px;
+  }
+  .trian-2 {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent; 
+    border-left:20px solid aliceblue;
+    position: absolute;
+    margin: 557px 658px;
+  }
+  .botao2:hover #botao2{
+    transform:scale(1.2);
+  }
+  .trian-3 {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent; 
+    border-right:20px solid aliceblue;
+    position: absolute;
+    margin: 557px 555px;
+  }
+  .trian-4 {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent; 
+    border-right:20px solid aliceblue;
+    position: absolute;
+    margin: 557px 565px;
+  }
+  .botao3:hover #botao3{
+    transform:scale(1.2);
+  }

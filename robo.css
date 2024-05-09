@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+.cabeça {
+    position: absolute;
+    background-color: rgba(158, 187, 212, 0.894);
+    padding: 40px 60px;
+    margin: 100px 600px;
+    border-radius: 30%;
+    border-color: black;
+    border-style: solid;
+}
+.rosto {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.894);
+    padding: 30px 50px;
+    margin: 110px 610px;
+    border-radius: 30%;
+    border-color: black;
+    border-style: solid;
+}
+.olho1 {
+    padding: 7px;
+    position: absolute;
+    background-color: rgb(158, 187, 212);
+    margin: 122px 630px;
+    border-radius: 50%;
+}
+.olho2 {
+    padding: 7px;
+    position: absolute;
+    background-color: rgb(158, 187, 212);
+    margin: 122px 680px;
+    border-radius: 50%;
+}
+.boca {
+    padding: 3px 20px;
+    background-color: rgb(158, 187, 212);
+    border-radius: 10%;
+    margin: 155px 642px;
+    position: absolute;
+}
+.corpo {
+    padding: 80px 57px;
+    position: absolute;
+    margin: 195px 603px;
+    background-color: rgb(158, 187, 212);
+    border-color: black;
+    border-style: solid;
+}
+.pescoço {
+    padding: 10px 20px;
+    background-color: rgb(158, 187, 212);
+    border-color: black;
+    border-style: solid;
+    margin: 183px 640px;
+    position: absolute;
+}
+#perna1 {
+    margin: 300px 610px;
+    padding: 50px 20px;
+    position: absolute;
+    background-color: rgb(158, 187, 212);
+    border-color: black;
+    border-style: solid;
+}
+#perna2 {
+    margin: 300px 670px;
+    padding: 50px 20px;
+    position: absolute;
+    background-color: rgb(158, 187, 212);
+    border-color: black;
+    border-style: solid;
+}
+.detalhe1 {
+    padding: 50px 47px;
+    position: absolute;
+    border-radius: 10%;
+    margin: 245px 613px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+} 
+.braco {
+    margin: 200px 580px;
+    padding: 50px 15px;
+    position: absolute;
+    background-color: rgb(158, 187, 212);
+    border-color: black;
+    border-style: solid;  
+}
+.braco2 {
+    margin: 200px 710px;
+    padding: 50px 15px;
+    position: absolute;
+    background-color: rgb(158, 187, 212);
+    border-color: black;
+    border-style: solid;  
+}
