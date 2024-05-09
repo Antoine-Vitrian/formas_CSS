@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+.botão {
+    margin-left: 20px;
+    font-size: 32px;
+    
+}
