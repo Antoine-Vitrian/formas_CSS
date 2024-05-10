@@ -6,9 +6,31 @@
     justify-content: center;
     align-items: center;
     font-size: 48px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(98, 224, 255);
 }
 .botão {
-    margin-left: 20px;
     font-size: 32px;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
+}
+.css {
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
+    
+}
+.css img {
+    background-color: rgb(158, 158, 158);
+    max-height: 740px;
+}
+#botao {
+    margin: 5px 10px;
 }

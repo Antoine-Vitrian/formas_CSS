@@ -19,12 +19,33 @@
     background-color: yellow;
     color: black;
     height: 600px;
-    width: 800px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
  }
  .imagem {
     background-color: blue;
     color: white;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+ #botao1 {
+    margin-bottom: 10px;
+ }
+.container {
+    font-size: 32px;
+}
+.rodape {
+    background-color: green;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

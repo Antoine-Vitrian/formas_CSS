@@ -65,7 +65,7 @@
     position: absolute; 
     margin: 557px 614px;
   }
-  .botao:hover #botao{
+  .botao:hover #bota0{
     transform:scale(1.2);
   }
   .trian-1 {
